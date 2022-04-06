@@ -1,0 +1,14 @@
+git init
+git add .
+git checkout -b branch
+git commit -m "message"
+git remote -v               # versions of git push
+git push origin main        # push in git main pull
+git push heroku HEAD:master # push to heroku
+
+
+heroku login
+heroku create appname
+heroku ps                   # avalible proccess
+heroku ps:scale worker=1    # start proccess
+
